@@ -1,0 +1,86 @@
+.logo{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.title{
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.pc{
+    color: chocolate;
+    font-style: bold;
+}
+
+.picture.left{
+    float: left;
+}
+
+.picture.right{
+    float: right;
+}
+.box{
+    display: inline-block
+}
+
+.first{
+    margin-left: 225px;
+    margin-top: 0;
+    text-align: justify;
+    height: 200px;
+}
+
+.second{
+        margin-right: 225px;
+        margin-top: 0;
+        text-align: justify;
+        height: 200px;    
+}
+
+footer{
+    text-align: center;
+    clear: both;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+
+@media (min-width:820px) and (max-width:1190px){
+    .laptop{
+        color: chocolate;
+    }
+    .pc{
+        color: black;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width:819px){
+    .phone{
+        color: chocolate;
+    }
+    .pc{
+        color: black;
+    }
+    .buttons{
+        display: grid;
+        margin-left: 40%;
+    }
+    .logo{
+        margin-left: 100px;
+    }
+}
+
+
